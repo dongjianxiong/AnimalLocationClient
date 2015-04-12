@@ -6,16 +6,19 @@
 //  Copyright (c) 2015年 umeng. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ALViewController.h"
 
-@interface ViewController ()
+@interface ALViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ALViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    if ([self respondsToSelector:@selector(setEdgesForExtendedLayout:)]) {
+        self.edgesForExtendedLayout = UIRectEdgeNone;
+    }
     // Do any additional setup after loading the view, typically from a nib.
 }
 

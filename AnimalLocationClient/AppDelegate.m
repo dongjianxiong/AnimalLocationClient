@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ALTabBarViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -16,6 +18,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [self.window makeKeyAndVisible];
+    self.window.backgroundColor = [UIColor whiteColor];
+    ALTabBarViewController *tabBarVc = [[ALTabBarViewController alloc]init];
+    UINavigationController *rootNavi = [[UINavigationController alloc]initWithRootViewController:tabBarVc];
+    self.window.rootViewController = rootNavi;
     // Override point for customization after application launch.
     return YES;
 }

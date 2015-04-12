@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ALAnimalsTableViewController.h
 //  AnimalLocationClient
 //
 //  Created by umeng on 15-4-12.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ALAnimalsTableViewController : UITableViewController
 
 @end
-

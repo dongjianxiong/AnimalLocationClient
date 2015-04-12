@@ -10,11 +10,26 @@
 		634F53A21ADA0E260025A2F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 634F53A11ADA0E260025A2F0 /* main.m */; };
 		634F53A51ADA0E260025A2F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 634F53A41ADA0E260025A2F0 /* AppDelegate.m */; };
 		634F53A81ADA0E260025A2F0 /* AnimalLocationClient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 634F53A61ADA0E260025A2F0 /* AnimalLocationClient.xcdatamodeld */; };
-		634F53AB1ADA0E260025A2F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634F53AA1ADA0E260025A2F0 /* ViewController.m */; };
 		634F53AE1ADA0E260025A2F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634F53AC1ADA0E260025A2F0 /* Main.storyboard */; };
 		634F53B01ADA0E260025A2F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634F53AF1ADA0E260025A2F0 /* Images.xcassets */; };
 		634F53B31ADA0E260025A2F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634F53B11ADA0E260025A2F0 /* LaunchScreen.xib */; };
 		634F53BF1ADA0E260025A2F0 /* AnimalLocationClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 634F53BE1ADA0E260025A2F0 /* AnimalLocationClientTests.m */; };
+		634F53DA1ADA0FF70025A2F0 /* ALMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634F53D31ADA0FF70025A2F0 /* ALMapViewController.m */; };
+		634F53DB1ADA0FF70025A2F0 /* ALMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634F53D41ADA0FF70025A2F0 /* ALMapViewController.xib */; };
+		634F53DC1ADA0FF70025A2F0 /* ALTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634F53D61ADA0FF70025A2F0 /* ALTabBarViewController.m */; };
+		634F53DD1ADA0FF70025A2F0 /* ALViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634F53D81ADA0FF70025A2F0 /* ALViewController.m */; };
+		634F53E11ADA11220025A2F0 /* ALAnimalsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634F53DF1ADA11220025A2F0 /* ALAnimalsTableViewController.m */; };
+		634F53E21ADA11220025A2F0 /* ALAnimalsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634F53E01ADA11220025A2F0 /* ALAnimalsTableViewController.xib */; };
+		634F53E71ADA21C50025A2F0 /* ALMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634F53E51ADA21C50025A2F0 /* ALMoreViewController.m */; };
+		634F53E81ADA21C50025A2F0 /* ALMoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634F53E61ADA21C50025A2F0 /* ALMoreViewController.xib */; };
+		634F53EB1ADA22910025A2F0 /* ALCustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 634F53EA1ADA22910025A2F0 /* ALCustomAnnotationView.m */; };
+		634F53ED1ADA22B60025A2F0 /* ALCustomAnnotationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634F53EC1ADA22B60025A2F0 /* ALCustomAnnotationView.xib */; };
+		634F53F61ADA25EC0025A2F0 /* ALAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 634F53F51ADA25EC0025A2F0 /* ALAnnotation.m */; };
+		634F53FA1ADA3C7A0025A2F0 /* ALQrCodeScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634F53F81ADA3C7A0025A2F0 /* ALQrCodeScanViewController.m */; };
+		634F53FB1ADA3C7A0025A2F0 /* ALQrCodeScanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634F53F91ADA3C7A0025A2F0 /* ALQrCodeScanViewController.xib */; };
+		634F53FE1ADA58180025A2F0 /* ALAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 634F53FD1ADA58180025A2F0 /* ALAnimal.m */; };
+		634F54011ADA5B990025A2F0 /* ALLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 634F54001ADA5B990025A2F0 /* ALLocation.m */; };
+		6AFB0BC609B83381922A2FF3 /* libPods-AnimalLocationClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39FEB479EB305ABE004ED613 /* libPods-AnimalLocationClient.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +43,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39FEB479EB305ABE004ED613 /* libPods-AnimalLocationClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnimalLocationClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEE6580EE72E1CAF423BF8D /* Pods-AnimalLocationClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalLocationClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnimalLocationClient/Pods-AnimalLocationClient.debug.xcconfig"; sourceTree = "<group>"; };
 		634F539C1ADA0E260025A2F0 /* AnimalLocationClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalLocationClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		634F53A01ADA0E260025A2F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		634F53A11ADA0E260025A2F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		634F53A31ADA0E260025A2F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		634F53A41ADA0E260025A2F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		634F53A71ADA0E260025A2F0 /* AnimalLocationClient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AnimalLocationClient.xcdatamodel; sourceTree = "<group>"; };
-		634F53A91ADA0E260025A2F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		634F53AA1ADA0E260025A2F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		634F53AD1ADA0E260025A2F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		634F53AF1ADA0E260025A2F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		634F53B21ADA0E260025A2F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		634F53B81ADA0E260025A2F0 /* AnimalLocationClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalLocationClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		634F53BD1ADA0E260025A2F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		634F53BE1ADA0E260025A2F0 /* AnimalLocationClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimalLocationClientTests.m; sourceTree = "<group>"; };
+		634F53D21ADA0FF70025A2F0 /* ALMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMapViewController.h; sourceTree = "<group>"; };
+		634F53D31ADA0FF70025A2F0 /* ALMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMapViewController.m; sourceTree = "<group>"; };
+		634F53D41ADA0FF70025A2F0 /* ALMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALMapViewController.xib; sourceTree = "<group>"; };
+		634F53D51ADA0FF70025A2F0 /* ALTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTabBarViewController.h; sourceTree = "<group>"; };
+		634F53D61ADA0FF70025A2F0 /* ALTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTabBarViewController.m; sourceTree = "<group>"; };
+		634F53D71ADA0FF70025A2F0 /* ALViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALViewController.h; sourceTree = "<group>"; };
+		634F53D81ADA0FF70025A2F0 /* ALViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALViewController.m; sourceTree = "<group>"; };
+		634F53DE1ADA11220025A2F0 /* ALAnimalsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAnimalsTableViewController.h; sourceTree = "<group>"; };
+		634F53DF1ADA11220025A2F0 /* ALAnimalsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAnimalsTableViewController.m; sourceTree = "<group>"; };
+		634F53E01ADA11220025A2F0 /* ALAnimalsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALAnimalsTableViewController.xib; sourceTree = "<group>"; };
+		634F53E41ADA21C50025A2F0 /* ALMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMoreViewController.h; sourceTree = "<group>"; };
+		634F53E51ADA21C50025A2F0 /* ALMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMoreViewController.m; sourceTree = "<group>"; };
+		634F53E61ADA21C50025A2F0 /* ALMoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALMoreViewController.xib; sourceTree = "<group>"; };
+		634F53E91ADA22910025A2F0 /* ALCustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALCustomAnnotationView.h; sourceTree = "<group>"; };
+		634F53EA1ADA22910025A2F0 /* ALCustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALCustomAnnotationView.m; sourceTree = "<group>"; };
+		634F53EC1ADA22B60025A2F0 /* ALCustomAnnotationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALCustomAnnotationView.xib; sourceTree = "<group>"; };
+		634F53F41ADA25EC0025A2F0 /* ALAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAnnotation.h; sourceTree = "<group>"; };
+		634F53F51ADA25EC0025A2F0 /* ALAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAnnotation.m; sourceTree = "<group>"; };
+		634F53F71ADA3C7A0025A2F0 /* ALQrCodeScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALQrCodeScanViewController.h; sourceTree = "<group>"; };
+		634F53F81ADA3C7A0025A2F0 /* ALQrCodeScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALQrCodeScanViewController.m; sourceTree = "<group>"; };
+		634F53F91ADA3C7A0025A2F0 /* ALQrCodeScanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALQrCodeScanViewController.xib; sourceTree = "<group>"; };
+		634F53FC1ADA58180025A2F0 /* ALAnimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAnimal.h; sourceTree = "<group>"; };
+		634F53FD1ADA58180025A2F0 /* ALAnimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAnimal.m; sourceTree = "<group>"; };
+		634F53FF1ADA5B990025A2F0 /* ALLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALLocation.h; sourceTree = "<group>"; };
+		634F54001ADA5B990025A2F0 /* ALLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALLocation.m; sourceTree = "<group>"; };
+		C28B72A398938DA27B484948 /* Pods-AnimalLocationClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalLocationClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimalLocationClient/Pods-AnimalLocationClient.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AFB0BC609B83381922A2FF3 /* libPods-AnimalLocationClient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +104,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A132D87873D6A12443F3046 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FEE6580EE72E1CAF423BF8D /* Pods-AnimalLocationClient.debug.xcconfig */,
+				C28B72A398938DA27B484948 /* Pods-AnimalLocationClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		634F53931ADA0E260025A2F0 = {
 			isa = PBXGroup;
 			children = (
 				634F539E1ADA0E260025A2F0 /* AnimalLocationClient */,
 				634F53BB1ADA0E260025A2F0 /* AnimalLocationClientTests */,
 				634F539D1ADA0E260025A2F0 /* Products */,
+				0A132D87873D6A12443F3046 /* Pods */,
+				CBA1E0949AD440F616432A05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,10 +136,11 @@
 		634F539E1ADA0E260025A2F0 /* AnimalLocationClient */ = {
 			isa = PBXGroup;
 			children = (
+				634F53D01ADA0FF70025A2F0 /* Models */,
+				634F53D11ADA0FF70025A2F0 /* ViewControllers */,
+				634F53D91ADA0FF70025A2F0 /* Views */,
 				634F53A31ADA0E260025A2F0 /* AppDelegate.h */,
 				634F53A41ADA0E260025A2F0 /* AppDelegate.m */,
-				634F53A91ADA0E260025A2F0 /* ViewController.h */,
-				634F53AA1ADA0E260025A2F0 /* ViewController.m */,
 				634F53AC1ADA0E260025A2F0 /* Main.storyboard */,
 				634F53AF1ADA0E260025A2F0 /* Images.xcassets */,
 				634F53B11ADA0E260025A2F0 /* LaunchScreen.xib */,
@@ -122,6 +176,60 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		634F53D01ADA0FF70025A2F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				634F53FC1ADA58180025A2F0 /* ALAnimal.h */,
+				634F53FD1ADA58180025A2F0 /* ALAnimal.m */,
+				634F53FF1ADA5B990025A2F0 /* ALLocation.h */,
+				634F54001ADA5B990025A2F0 /* ALLocation.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		634F53D11ADA0FF70025A2F0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				634F53D21ADA0FF70025A2F0 /* ALMapViewController.h */,
+				634F53D31ADA0FF70025A2F0 /* ALMapViewController.m */,
+				634F53D41ADA0FF70025A2F0 /* ALMapViewController.xib */,
+				634F53D51ADA0FF70025A2F0 /* ALTabBarViewController.h */,
+				634F53D61ADA0FF70025A2F0 /* ALTabBarViewController.m */,
+				634F53D71ADA0FF70025A2F0 /* ALViewController.h */,
+				634F53D81ADA0FF70025A2F0 /* ALViewController.m */,
+				634F53DE1ADA11220025A2F0 /* ALAnimalsTableViewController.h */,
+				634F53DF1ADA11220025A2F0 /* ALAnimalsTableViewController.m */,
+				634F53E01ADA11220025A2F0 /* ALAnimalsTableViewController.xib */,
+				634F53E41ADA21C50025A2F0 /* ALMoreViewController.h */,
+				634F53E51ADA21C50025A2F0 /* ALMoreViewController.m */,
+				634F53E61ADA21C50025A2F0 /* ALMoreViewController.xib */,
+				634F53E91ADA22910025A2F0 /* ALCustomAnnotationView.h */,
+				634F53EA1ADA22910025A2F0 /* ALCustomAnnotationView.m */,
+				634F53EC1ADA22B60025A2F0 /* ALCustomAnnotationView.xib */,
+				634F53F41ADA25EC0025A2F0 /* ALAnnotation.h */,
+				634F53F51ADA25EC0025A2F0 /* ALAnnotation.m */,
+				634F53F71ADA3C7A0025A2F0 /* ALQrCodeScanViewController.h */,
+				634F53F81ADA3C7A0025A2F0 /* ALQrCodeScanViewController.m */,
+				634F53F91ADA3C7A0025A2F0 /* ALQrCodeScanViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		634F53D91ADA0FF70025A2F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CBA1E0949AD440F616432A05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39FEB479EB305ABE004ED613 /* libPods-AnimalLocationClient.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 634F53C21ADA0E260025A2F0 /* Build configuration list for PBXNativeTarget "AnimalLocationClient" */;
 			buildPhases = (
+				84F479D8EE2112E73EF53E41 /* Check Pods Manifest.lock */,
 				634F53981ADA0E260025A2F0 /* Sources */,
 				634F53991ADA0E260025A2F0 /* Frameworks */,
 				634F539A1ADA0E260025A2F0 /* Resources */,
+				66685DC74F69890C38B52E29 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,6 +276,7 @@
 		634F53941ADA0E260025A2F0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AL;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = umeng;
 				TargetAttributes = {
@@ -202,8 +313,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				634F53ED1ADA22B60025A2F0 /* ALCustomAnnotationView.xib in Resources */,
+				634F53E21ADA11220025A2F0 /* ALAnimalsTableViewController.xib in Resources */,
 				634F53AE1ADA0E260025A2F0 /* Main.storyboard in Resources */,
 				634F53B31ADA0E260025A2F0 /* LaunchScreen.xib in Resources */,
+				634F53DB1ADA0FF70025A2F0 /* ALMapViewController.xib in Resources */,
+				634F53E81ADA21C50025A2F0 /* ALMoreViewController.xib in Resources */,
+				634F53FB1ADA3C7A0025A2F0 /* ALQrCodeScanViewController.xib in Resources */,
 				634F53B01ADA0E260025A2F0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,15 +333,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		66685DC74F69890C38B52E29 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnimalLocationClient/Pods-AnimalLocationClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84F479D8EE2112E73EF53E41 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		634F53981ADA0E260025A2F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				634F53E71ADA21C50025A2F0 /* ALMoreViewController.m in Sources */,
+				634F53EB1ADA22910025A2F0 /* ALCustomAnnotationView.m in Sources */,
+				634F53FA1ADA3C7A0025A2F0 /* ALQrCodeScanViewController.m in Sources */,
 				634F53A51ADA0E260025A2F0 /* AppDelegate.m in Sources */,
+				634F53FE1ADA58180025A2F0 /* ALAnimal.m in Sources */,
+				634F53DD1ADA0FF70025A2F0 /* ALViewController.m in Sources */,
 				634F53A21ADA0E260025A2F0 /* main.m in Sources */,
-				634F53AB1ADA0E260025A2F0 /* ViewController.m in Sources */,
+				634F53DC1ADA0FF70025A2F0 /* ALTabBarViewController.m in Sources */,
+				634F53E11ADA11220025A2F0 /* ALAnimalsTableViewController.m in Sources */,
+				634F53DA1ADA0FF70025A2F0 /* ALMapViewController.m in Sources */,
 				634F53A81ADA0E260025A2F0 /* AnimalLocationClient.xcdatamodeld in Sources */,
+				634F53F61ADA25EC0025A2F0 /* ALAnnotation.m in Sources */,
+				634F54011ADA5B990025A2F0 /* ALLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,9 +505,11 @@
 		};
 		634F53C31ADA0E260025A2F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FEE6580EE72E1CAF423BF8D /* Pods-AnimalLocationClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AnimalLocationClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,9 +517,11 @@
 		};
 		634F53C41ADA0E260025A2F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C28B72A398938DA27B484948 /* Pods-AnimalLocationClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AnimalLocationClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +580,7 @@
 				634F53C41ADA0E260025A2F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		634F53C51ADA0E260025A2F0 /* Build configuration list for PBXNativeTarget "AnimalLocationClientTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +589,7 @@
 				634F53C71ADA0E260025A2F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
